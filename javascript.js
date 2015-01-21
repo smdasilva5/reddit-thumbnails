@@ -10,7 +10,9 @@ $('.submit-btn').click(function(){
       $('.output').html('');
       
       for(i=0; i < results.data.children.length; i++){
-        $('.output').append('<img src="'+ results.data.children[i].data.thumbnail + '"/>');
+        if(results.data.children[i].data.thumbnail != 'self') {
+          $('.output').append('<img src="'+ results.data.children[i].data.thumbnail + '"/>');
+        }
       }
     }
   });
