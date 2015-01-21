@@ -1,3 +1,16 @@
+div {
+  background-color: rgb(218, 239, 255);
+  height: 50px;
+  border: 1px solid darkblue;
+  border-radius: 4px;
+}
+
+.user-select, .submit-btn{
+  margin-top: 10px;   
+  margin-left: 5px; 
+  border-radius: 4px;
+}
+
 img {
   margin: 10px;
   width: 100px;
